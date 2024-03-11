@@ -15,7 +15,7 @@ struct ContentView : View {
         ARViewContainer().edgesIgnoringSafeArea(.all)
     }
 }
-
+ 
 struct ARViewContainer: UIViewControllerRepresentable {
     
     func makeUIViewController(context: Context) -> UIViewController {
